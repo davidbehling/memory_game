@@ -135,3 +135,16 @@ Abra o arquivo index.html no navegador
 * 🎮 Níveis de dificuldade
 * 📱 Suporte a dispositivos móveis
 * 🔊 Efeitos sonoros
+
+
+## 🖥️ Imagem
+
+![pokedex](https://github.com/davidbehling/memory_game/blob/main/public/print.png)
+
+## 🖥️ Imagem Responsivo
+
+![pokedex](https://github.com/davidbehling/memory_game/blob/main/public/print_responsivo.png)
+
+## 🔗 Link Teste
+
+https://adorable-tarsier-9a841a.netlify.app/pages/game.html
