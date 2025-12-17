@@ -70,3 +70,63 @@ header {
     filter: saturate(0);
     opacity: 0.5;
 }
+
+/* Responsivo para smartphones */
+@media (max-width: 768px) {
+    main {
+        padding: 15px 15px 30px;
+    }
+
+    header {
+        font-size: 1em;
+        padding: 20px;
+        margin: 0 0 20px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    .card {
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 10px;
+    }
+
+    header {
+        font-size: 0.9em;
+        padding: 15px;
+        margin: 0 0 15px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+
+    .card {
+        height: 120px;
+    }
+}
+
+@media (max-width: 360px) {
+    header {
+        font-size: 0.8em;
+        padding: 12px;
+    }
+
+    .grid {
+        gap: 6px;
+    }
+
+    .card {
+        height: 100px;
+    }
+}

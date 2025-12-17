@@ -51,3 +51,43 @@
     color: #aaa;
     cursor: auto;
 }
+
+/* Responsivo para smartphones */
+@media (max-width: 768px) {
+    .login_header {
+        margin-bottom: 30px;
+    }
+
+    .login_header img {
+        width: 80px;
+    }
+
+    .login_header h1 {
+        font-size: 1.3em;
+    }
+
+    .login_input {
+        max-width: 90%;
+        font-size: 16px;
+    }
+
+    .login_button {
+        max-width: 90%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login_header img {
+        width: 70px;
+    }
+
+    .login_header h1 {
+        font-size: 1.2em;
+    }
+
+    .login_input,
+    .login_button {
+        max-width: 95%;
+    }
+}
