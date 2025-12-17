@@ -16,7 +16,7 @@ Projeto criado com foco **educacional e de portfólio**, demonstrando:
 - Animações com CSS
 
 
-# 🎮 Demonstração
+## 🎮 Demonstração
 
 > O jogo roda diretamente no navegador, sem necessidade de bibliotecas externas.
 
@@ -24,7 +24,7 @@ Projeto criado com foco **educacional e de portfólio**, demonstrando:
 Encontrar todos os pares de cartas iguais virando duas cartas por vez.
 
 
-# 🕹️ Como Jogar
+## 🕹️ Como Jogar
 
 1. Clique em uma carta para virá-la
 2. Clique em outra carta
@@ -33,7 +33,7 @@ Encontrar todos os pares de cartas iguais virando duas cartas por vez.
 5. O jogo termina quando todos os pares forem encontrados
 
 
-# 📌 Funcionalidades
+## 📌 Funcionalidades
 
 - 🃏 Cartas embaralhadas automaticamente
 - 🔄 Sistema de virar cartas
@@ -43,12 +43,11 @@ Encontrar todos os pares de cartas iguais virando duas cartas por vez.
 - 🎨 Animações visuais simples e fluidas
 
 
-# 🏗️ Arquitetura do Projeto
+## 🏗️ Arquitetura do Projeto
 
 Fluxo lógico do jogo:
 
 ```
-
 HTML (estrutura das cartas)
 ↓
 CSS (estilo e animações)
@@ -58,28 +57,42 @@ JavaScript
 * Estado do jogo
 * Regras
 * Eventos
-
 ```
 
-
-# 📂 Estrutura de Diretórios
+## 📂 Estrutura de Diretórios
 
 ```
-
 memory_game/
-├── images/                # Imagens / ícones das cartas
-│   ├── card-1.png
-│   ├── card-2.png
-│   └── ...
-│
-├── index.html             # Estrutura principal do jogo
-├── style.css              # Estilos e animações
-├── script.js              # Lógica do jogo
-└── README.md              # Documentação
-
+├── css
+│   ├── game.css
+│   ├── login.css
+│   └── reset.css
+├── images
+│   ├── back.png
+│   ├── beth.png
+│   ├── bg.jpg
+│   ├── brain.png
+│   ├── cerebro.jpg
+│   ├── jerry.png
+│   ├── jessica.png
+│   ├── logo.png
+│   ├── meeseeks.png
+│   ├── morty.png
+│   ├── pessoa-passaro.png
+│   ├── pickle-rick.png
+│   ├── rick.png
+│   ├── scroopy.png
+│   └── summer.png
+├── js
+│   ├── game.js
+│   └── login.js
+├── pages
+│   └── game.html
+├── index.html
+└── README.md
 ````
 
-# ⚙️ Tecnologias Utilizadas
+## ⚙️ Tecnologias Utilizadas
 
 - **HTML5**
 - **CSS3**
@@ -91,21 +104,21 @@ memory_game/
   - Controle de estado
 
 
-# 🚀 Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 
-## Opção 1 — Abrir direto no navegador
+### Opção 1 — Abrir direto no navegador
 ```bash
 Abra o arquivo index.html no navegador
 ````
 
-## Opção 2 — Live Server (VSCode)
+### Opção 2 — Live Server (VSCode)
 
 1. Instale a extensão **Live Server**
 2. Clique com o botão direito em `index.html`
 3. Selecione **Open with Live Server**
 
 
-# 🧠 Lógica do Jogo (Resumo)
+## 🧠 Lógica do Jogo (Resumo)
 
 * As cartas são duplicadas e embaralhadas
 * O jogador só pode virar duas cartas por vez
@@ -114,7 +127,7 @@ Abra o arquivo index.html no navegador
 * O jogo termina ao encontrar todos os pares
 
 
-# 🚀 Possíveis Evoluções
+## 🚀 Possíveis Evoluções
 
 * ⏱️ Contador de tempo
 * 🏆 Sistema de pontuação
